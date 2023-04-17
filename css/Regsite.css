@@ -1,0 +1,113 @@
+body{
+   /* background-color: #657682; */
+background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(29,42,89,1) 0%, rgba(130,133,134,1) 66%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+    
+}
+.navbar {
+        background: #1D2A59;
+        width: 100%; 
+    
+}
+         
+
+#name{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.tiles{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #828586;
+    height: 100px;
+    clear: both;
+    display: inline-block;
+    
+}
+.tile{
+   background-color: #1D2A59;
+    margin: 0 1% 5px 1%;
+    margin-bottom: 10px;
+    color: white;
+    font-family: "verdana";
+    padding-bottom: 5px;
+    
+}
+#resframe{
+    margin: 20px 10%;
+    width: 80%;
+    height: 2350px;
+}
+#mobilelink{
+    display: none;
+    margin-top: 25px;
+    text-align: center;
+}
+@media screen and (max-width: 780px){
+    #mobilelink{
+        display: block;
+    }
+    #resframe{
+        display: none;
+    }
+}
+    #fscar{
+
+        margin: 20px auto;
+        
+    }
+@media screen and (min-width: 1050px){
+    #fscar{
+        height: 500px;
+        width: 800px;
+        margin: 20px auto;
+    }
+}
+
+.content{
+    font-family: "verdana";
+    list-style-type: square;
+    padding: 15px;
+    margin: 40px 10%;
+    background-color: white;
+    color: black;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#boltzframe{
+    text-align: center;
+}
+
+@media screen and (max-width: 780px){
+    #bframe{
+        width: 280px;
+        height: 158px;       
+    }
+    #botimg{
+        width: 250px;
+        height: auto;
+    }
+    .tile{
+        width: 100px;
+        height: auto;
+        font-size: 10px;
+    }
+    .icon{
+        width: 50px;
+    }
+}
+.headers{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
