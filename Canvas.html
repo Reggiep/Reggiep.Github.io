@@ -13,11 +13,13 @@
 <div class="container">
     <div class="buttonContainer">
         <div id="currentColor"></div>
-        <button class="button" onclick="">Color</button>
-        <button class="button" onclick="eraserTime()">Eraser</button>
-        <button class="button" onclick="drawPixels(size)">Clear</button> 
+        <canvas id="color-wheel"></canvas>
+        <button class="button" onclick="drawPixels(size)">Clear</button>
+        <button class="button" onclick="drawPixels(16)">16 x 16</button> 
+        <button class="button" onclick="drawPixels(32)">32 x 32</button> 
+        <button class="button" onclick="drawPixels(64)">64 x 64</button>  
         <!--Radio for Size selection-->
-        <div class="radioContainer">
+<!--         <div class="radioContainer">
             <input type="radio" class="rad" name="size" value="16" onchange="drawPixels(16)" checked>
             <label for="small">16 x 16</label>
         </div>
@@ -28,7 +30,7 @@
         <div class="radioContainer">
             <input type="radio" class="rad" name="size" value="64" onchange="drawPixels(64)">
             <label for="large">64 x 64</label>
-        </div>
+        </div> -->
     </div>
     <div class="grid" id="gridLayer">
     <!-- Javascript function should use this div to create an adjustable grid of pixels --> 
