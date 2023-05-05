@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Canvas!</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/canvas.css">
+<style>
+</style>
+<script src=""></script>
+<body>
+
+    <h1>Canvas</h1>
+<div class="container">
+    <div class="buttonContainer">
+        <div id="currentColor"></div>
+        <button class="button" onclick="">Color</button>
+        <button class="button" onclick="eraserTime()">Eraser</button>
+        <button class="button" onclick="drawPixels(size)">Clear</button> 
+        <!--Radio for Size selection-->
+        <div class="radioContainer">
+            <input type="radio" class="rad" name="size" value="16" onchange="drawPixels(16)" checked>
+            <label for="small">16 x 16</label>
+        </div>
+        <div class="radioContainer">
+            <input type="radio" class="rad" name="size" value="32" onchange="drawPixels(32)">
+            <label for="med">32 x 32</label>
+        </div>
+        <div class="radioContainer">
+            <input type="radio" class="rad" name="size" value="64" onchange="drawPixels(64)">
+            <label for="large">64 x 64</label>
+        </div>
+    </div>
+    <div class="grid" id="gridLayer">
+    <!-- Javascript function should use this div to create an adjustable grid of pixels --> 
+    </div>
+</div>
+
+<script src="js/Canvas.js"></script>
+</body>
+</html>
