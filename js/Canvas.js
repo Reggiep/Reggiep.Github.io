@@ -1,8 +1,8 @@
 //Canvas variables
 var newPixel = document.createElement("div");
 var grid = document.getElementById("gridLayer");
-var currentColor = document.getElementById("currentColor")
-newPixel.setAttribute("class", "pixel")
+var currentColor = document.getElementById("currentColor");
+newPixel.setAttribute("class", "pixel");
 //variables 
 var size = 16;
 var color = "black";
