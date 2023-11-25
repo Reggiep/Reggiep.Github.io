@@ -113,3 +113,9 @@ p{
     font-size: 40px;
 }
 
+ /* .scaledown{
+    object-fit: cover;
+    scale: .7;
+    transform: translateY(-15re);
+ }
+  */
